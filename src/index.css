@@ -104,8 +104,29 @@ h2 {
   font-size: small;
   
 }
-
-.kl {
+.flex-container {
+  display: flex; /* Enables flexbox layout */
+  justify-content: space-between; /* Adds space between the buttons */
+  align-items: center; /* Aligns items vertically */
+  width: 100%; /* Ensures the container spans the full width */
+}.kl {
+  font-size: small;
+  width: 46%;
+  padding: 10px;
+  background: #fff;
+  color: #4caf50;
+  border: none;
+  border-radius: 39px;
+  cursor: pointer;
+  align-items: center;
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center; /* Centers the text and icon inside the button */
+}
+.fb{
+  padding-left: 20px;
+}
+.km {
   font-size: small;
     width: 46%;
     padding: 10px;
@@ -114,8 +135,7 @@ h2 {
     border: none;
     border-radius: 39px;
     cursor: pointer;
-    align-items: center;
-    display: flex;
+    
 }
 .icon{
     width: 20%;
